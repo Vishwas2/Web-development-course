@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img width="600" src="image.jpg" alt="Batman image">
+    <!-- img tag is used to attach picture in your website -->
+    <!-- in src you have to write the name of your picture -->
+    <!-- the text inside alt will display when there is some issue with the picture. -->
+    <!-- width is used to set the width of the picture in pixels -->
+    <br>
+    <!-- br tag is used to give a line break  -->
+    <table>
+        <caption>Employee Details</caption>
+        <!-- caption tag is used to add caption in html -->
+        <thead>
+            header
+            <tr>
+                <!-- th tag is for table heading -->
+                <th>Name</th>
+                <th>Designation</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="1">Vishwas</td>
+            <!-- colspan is used to specify the number of columns of the table td will take (by default it is set to 1) -->
+            <td rowspan="1">Programmer</td>
+            <!-- rowspan is used to specify the number of rows of the table td will take (by default it is also 1) -->
+        </tr>
+            footer
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Adi</td>
+                <td>Engineer</td>
+            </tr>
+        </tfoot>
+        <!-- thead, tbody and tfoot are used to group tr and td it won't affect the table in any way. They are just used for grouping. -->
+    </table>
+    <!-- lists are very important in html. There are 3 types of lists namely : unordered list, ordered list and definition list. -->
+    <h1>Unordered List example : </h1>
+    <ul type = square>
+        <!-- ul stands for unordered list (disk by default)-->
+        <!-- type can by used to change the type of points -->
+        <li>Vishwas</li>
+        <li>Adi</li>
+        <li>Aditya</li>
+        <li>Shiven</li>
+    </ul>
+    <h1>Ordered List example : </h1>
+    <ol type = "I">
+        <!-- ol stands for ordered list (numbered by default) -->
+        <!-- I will give uppercase roman numericals -->
+        <li>Vishwas</li>
+        <li>Adi</li>
+        <li>Aditya</li>
+        <li>Shiven</li>
+    </ol>
+    <h1>Definition list example : </h1>
+    <dl>
+        <!-- dl stands for definition list -->
+        <dt>HTML</dt>
+        <dd>HTML stands for Hyper Text Markup Language</dd>
+        <dt>SQL</dt>
+        <dd>SQL stands for Structured Query Language</dd>
+    </dl>
+    <script src="script.js"></script>
+</body>
+</html>
