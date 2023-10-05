@@ -1,0 +1,11 @@
+/* To target a class you need to put a dot(.) before its name */
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+/* To target an id you need to put hash(#) before its name */
+#firstdiv {
+  background-color: red;
+}
